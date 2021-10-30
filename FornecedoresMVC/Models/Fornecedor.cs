@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Text.Json.Serialization;
 using System.Threading.Tasks;
 
 namespace FornecedoresMVC.Models
@@ -14,6 +15,7 @@ namespace FornecedoresMVC.Models
 
         public string Telefone { get; set; }
 
+        
         public Categoria Categoria { get; set; }
 
         public int CategoriaId { get; set; }
